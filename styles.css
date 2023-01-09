@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* Generating a circular border to encapsulate my square image.
+Achieved by clipping my image into a circular border box.*/
+.pic{
+	margin: 0;
+	padding: 0;
+	width: 140px;
+	height: 190px;
+	clip-path: circle();
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 20px solid rgb(206,211,207);
+
+	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+/* changing color using RGB and Alpha values.*/
+body{
+	background-color: rgba(19,19,27,0.86);
+}
+
+.bio{
+	background-color: rgba(108, 101, 175, 0.88);
+}
+
+.SandK{
+	background-color: rgba(108, 101, 175, 0.88);
+}
+.skillHeader{
+	background-color: rgba(187, 133, 238, 0.92);
+}
+
+.achivHeader{
+	background-color: rgba(187, 133, 238, 0.92);
+}
+
+/* Generating a box border around my bullet points.*/
+.skill{
+	font-style: oblique;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 100px;
+	background-color: rgba(156, 147, 248, 0.93);
+}
+
+.achiv{
+	font-style: oblique;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 100px;
+	background-color: rgba(156, 147, 248, 0.93);
+}
+
+/* Changing the background, text color and font style.*/
+h1{
+	font-style: italic;
+	color: white;
+	background-color: rgba(117, 55, 176, 0.92);
+}
+
+.contact{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 100px;
+	background-color: rgba(156, 147, 248, 0.93);
+}
